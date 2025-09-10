@@ -1,0 +1,7 @@
+/.dist
+/final_model_basic.pth
+/final_model_basic_aug.pth
+/final_model_dropout.pth
+/final_model_dropout_aug.pth
+/final_model_resnet.pth
+/final_model_resnet_aug.pth
