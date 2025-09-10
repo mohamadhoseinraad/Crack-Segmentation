@@ -168,7 +168,8 @@ This prints metrics and saves `model_comparison.png`.
 ```bash
 python codes/test_image.py
 ```
-It writes an overlay result next to the input (e.g., `result.jpg`).
+- You can download pth files from https://drive.google.com/drive/folders/1F7k1WFvYIj7D6GnsqH2K0rluaLmQrvjq?usp=sharing
+- It writes an overlay result next to the input (e.g., `result.jpg`).
 
 Example:
 - Input image:
