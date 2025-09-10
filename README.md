@@ -80,12 +80,12 @@ Aggregated test performance (see `model_comparision.txt` and `model_comparison.p
 
 - Training history plots per model:
 
-  - Basic: ![training_history_basic](training_history_basic.png)
-  - Basic (aug): ![training_history_basic_aug](training_history_basic_aug.png)
-  - Dropout: ![training_history_dropout](training_history_dropout.png)
-  - Dropout (aug): ![training_history_dropout_aug](training_history_dropout_aug.png)
-  - ResNet: ![training_history_resnet](training_history_resnet.png)
-  - ResNet (aug): ![training_history_resnet_aug](training_history_resnet_aug.png)
+  - Basic: ![training_history_basic](training_history/training_history_basic.png)
+  - Basic (aug): ![training_history_basic_aug](training_history/training_history_basic_aug.png)
+  - Dropout: ![training_history_dropout](training_history/training_history_dropout.png)
+  - Dropout (aug): ![training_history_dropout_aug](training_history/training_history_dropout_aug.png)
+  - ResNet: ![training_history_resnet](training_history/training_history_resnet.png)
+  - ResNet (aug): ![training_history_resnet_aug](training_history/training_history_resnet_aug.png)
 
 
 
@@ -174,11 +174,11 @@ python codes/test_image.py
 Example:
 - Input image:
 
-![Input image](image.jpg)
+![Input image](infer_example/image.jpg)
 
 - Output overlay:
 
-![Output overlay](result.jpg)
+![Output overlay](infer_example/result.jpg)
 
 To visualize a few random test samples and save a grid to `_infer_samples.png`:
 ```bash
@@ -186,7 +186,7 @@ python codes/test_on_dataset.py
 ```
 - Inference samples:
 
-![Inference samples](./_infer_samples.png)
+![Inference samples](infer_example/_infer_samples.png)
 
 ## Data preparation (from raw images/masks)
 
